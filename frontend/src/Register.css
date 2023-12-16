@@ -1,0 +1,156 @@
+/* Register.css */
+
+.registration-container {
+    
+    /* Set the background image for the registration page */
+    background-image: url('../photos/4650728.jpg');
+    /* Use the correct relative path */
+    background-size: cover;
+    /* Cover the entire viewport */
+    background-repeat: no-repeat;
+    /* Prevent image repetition */
+    background-attachment: fixed;
+    /* Fixed position */
+
+    /* Set margin and padding to 0 to remove default spacing */
+    margin: 0;
+    padding: 0;
+    /* Center the container in the middle of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  
+    /* Use min-height instead of height */
+}
+.registration-container h1{
+
+    position: relative;
+    bottom: 320px;
+    
+}
+.registration-card {
+    position: relative;
+    padding: 60px;
+    /* Set padding for the card */
+    background: rgba(142, 167, 130, 0.8);
+    /* Dark background with transparency */
+    backdrop-filter: blur(10px);
+    /* Apply a blur effect to the background */
+    box-shadow: 0 4px 6px rgba(232, 16, 16, 0.1), 0 10px 20px rgba(164, 11, 11, 0.19);
+    /* Shadow effect */
+    /* Center the content vertically */
+    border-radius: 20px;
+    display: flex;
+    right: 120px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration-card form {
+    /* Style for the form within the card */
+    width: 100%;
+    max-width: 400px;
+    /* Adjust the maximum width as needed */
+}
+
+/* Style for labels */
+.registration-card label {
+    position: relative;
+    color: white;
+    margin-bottom: 10px;
+    /* Add space below each label */
+    font-weight: bold;
+    /* Add bold font weight to labels (adjust as needed) */
+}
+
+/* Style for inputs */
+.registration-card input[type="text"],
+.registration-card input[type="email"],
+.registration-card input[type="password"] {
+    padding: 10px;
+    /* Adjust padding for spacing */
+    width: 100%;
+    /* Ensure inputs take up the full width */
+    margin-bottom: 20px;
+    /* Add space below each input */
+}
+
+/* Style for the button */
+.registration-card button {
+    position: relative;
+    background-color: #3cab65;
+    color: #fff;
+    border: none;
+    margin: 10px auto;
+    /* Center-align the button horizontally */
+    display: block;
+    /* Make it a block element for centering */
+    padding: 10px 20px;
+    /* Adjust padding for spacing */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Add a hover effect */
+.registration-card button:hover {
+    background-color: #2f8a53;
+    /* Change the background color on hover */
+}
+
+/* Style for links */
+.registration-card a {
+    color: #fff;
+    margin: 10px auto;
+    /* Center-align the link horizontally */
+    display: block;
+    /* Make it a block element for centering */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+/* Style for the registration result message */
+.registration-card p {
+    color: #fff;
+    margin-top: 10px;
+    /* Add space above the message */
+    text-align: center;
+}
+
+/* Style for the h1 element */
+.registration-card h1 {
+    font-family: 'Register Form', sans-serif;
+    /* Replace 'Your-Desired-Font' with the actual font name */
+    font-size: 36px;
+    /* Adjust the font size as needed */
+    font-weight: bold;
+    /* Make it bold */
+    color: #fff;
+    /* Text color */
+    text-align: center;
+    /* Center align the text */
+    margin-bottom: 20px;
+    /* Add space below the heading */
+}
+
+@media (max-width: 768px) {
+    .registration-card {
+        padding: 40px;
+        /* Adjust padding for mobile */
+    }
+}
+
+/* Style for the button container */
+.registration-card .text-center {
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    position: relative;
+    bottom: 290px;
+    left: 150px;
+}

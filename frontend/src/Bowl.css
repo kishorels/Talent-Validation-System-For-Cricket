@@ -1,0 +1,34 @@
+/* Bat.css */
+.background2 {
+    position: relative;
+    background-image: url("../public/365766.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+.content {
+    position: relative;
+    margin: 0 auto;
+    /* Center the card horizontally */
+    padding: 20px;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgba(0, 0, 0, 0.3);
+    width: 320px;
+    /* Set the width of the card */
+}
+
+
+
+h1 {
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.8);
+    /* Slight transparency for the text */
+}

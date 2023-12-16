@@ -1,0 +1,39 @@
+/* Bat.css */
+.background1 {
+    position: relative;
+background-image: url("../public/wp12122819-virat-kohli-2023-wallpapers.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+.content {
+    position: relative;
+    margin: 0 auto;
+    /* Center the card horizontally */
+    padding: 20px;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgba(0, 0, 0, 0.3);
+    width: 320px;
+    /* Set the width of the card */
+}
+
+
+
+h1 {
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.8);
+    /* Slight transparency for the text */
+}
+.logo{position: relative;
+    width: 160px;
+    top: 30px;
+
+}

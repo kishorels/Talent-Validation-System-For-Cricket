@@ -1,0 +1,104 @@
+/* Custom CSS for your Home component */
+header {
+    margin-bottom: 10px;
+    /* You can adjust the value as needed */
+}
+/* Add space between different sections */
+/* Space between the "container marketing" section and the "featurette-divider" */
+
+/* Increase the height of the carousel */
+#myCarousel {
+    height: 600px;
+    /* Adjust this value as needed */
+}
+
+.carousel-item img {
+    height: 600px;
+    /* Adjust this value to match the container height */
+}
+
+/* Add styles for the navigation bar */
+.navbar {
+    background-color: #343a40;
+    /* Change this to your preferred color */
+}
+
+.navbar a {
+    color: #fff;
+    /* Change the text color to your preference */
+}
+
+/* Customize the buttons within the carousel */
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #fff;
+    /* Change button color to your preference */
+}
+
+/* Increase the font size and style of the carousel caption */
+.carousel-caption h1 {
+    font-size: 2.5rem;
+    /* Adjust the font size as needed */
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1.25rem;
+    
+    /* Adjust the font size as needed */
+}
+
+/* Style the "View details" buttons */
+.btn-secondary {
+    background-color: #6528e0;
+    /* Change button color to your preference */
+    color: #fff;
+    /* Change text color to your preference */
+}
+
+/* Add a border below the "View details" buttons */
+.btn-secondary:after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #fff;
+    /* Adjust the border color and size as needed */
+    transform: scaleX(0);
+    transition: transform 0.25s ease-in-out;
+}
+
+.btn-secondary:hover:after {
+    transform: scaleX(1);
+}
+
+.logohome{
+    
+    width: 60px;
+   
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:400,700");
+
+
+
+.logo {
+    position: relative;
+
+    width: 50%;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px 90px;
+    top: 100px;
+
+
+
+}
+
